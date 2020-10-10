@@ -2,7 +2,7 @@ node('master')
 {
     stage('continuousdownload')
     {
-        git 'https://github.com/rajendra538/newwork.git'
+        git 'https://github.com/rajendra538/new_maven.git'
     }
     stage('continuousbuild')
     {
